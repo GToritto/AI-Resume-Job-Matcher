@@ -4,7 +4,7 @@ A smart, local, and fully free job-matching assistant powered by AI sentence emb
 Upload your resume (PDF or DOCX), set a similarity threshold, and instantly find job listings that match your skills — all from a modern desktop GUI.
 
 
-![screenshot](https://github.com/GToritto/AI-Resume-Job-Matcher/blob/main/screenshots/gui.png)
+![screenshot](screenshots/gui.png)
 
 
 ---
@@ -73,9 +73,9 @@ python resume_gui.py
 ### 📄 Resume Upload &  Results
 
 
-```
+
 ![matches](screenshots/gui.png)
-```
+
 
 ---
 
@@ -83,10 +83,10 @@ python resume_gui.py
 
 Click **"Export to CSV"** to save your matches for follow-up.
 
-```
+
 ![export](screenshots/export.png)
 ![csv](screenshots/csv.png)
-```
+
 ## 🧠 About the AI
 
 This project uses the **MiniLM-L6-v2** model from [HuggingFace](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) via the `sentence-transformers` library.  
