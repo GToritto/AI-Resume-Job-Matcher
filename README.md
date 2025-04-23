@@ -1,26 +1,7 @@
-Absolutely! Here's a clean, professional, and organized **GitHub README** template for your project, with clear sections and placeholders for screenshots and badges.
-
----
-
-## 🧠 README.md – *AI Resume Job Matcher*
-
-```markdown
-# 🤖 AI Resume Job Matcher
+🤖 AI Resume Job Matcher
 
 A smart, local, and fully free job-matching assistant powered by AI sentence embeddings.  
 Upload your resume (PDF or DOCX), set a similarity threshold, and instantly find job listings that match your skills — all from a modern desktop GUI.
-
-![License](https://img.shields.io/badge/license-MIT-green)  
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)  
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-
----
-
-## 🖼️ Demo
-
-### 📌 GUI Interface
-
-> _📍 Add your GUI screenshot here:_
 
 ```
 ![screenshot](screenshots/gui.png)
@@ -87,19 +68,6 @@ python resume_gui.py
 
 ---
 
-## 📁 Folder Structure
-
-```
-project-root/
-│
-├── resume_gui.py            # Main app
-├── README.md                # This file
-├── requirements.txt         # Dependencies
-├── screenshots/             # Place your screenshots here
-│   └── gui.png
-└── exports/                 # Optional: Exported CSVs
-```
-
 ---
 
 ## 📷 Screenshots
@@ -137,32 +105,3 @@ title, link, score
 ```
 
 ---
-
-## 🪪 License
-
-This project is licensed under the MIT License.  
-You are free to use, modify, and distribute it for personal or commercial use.
-
----
-
-## 🙌 Contribute
-
-Feel free to submit a pull request for:
-- New job board scrapers
-- Better matching logic
-- GUI improvements
-- Model upgrades
-
----
-
-## 💬 Questions / Feedback?
-
-Open an [issue](https://github.com/yourusername/ai-resume-matcher/issues) or reach out!
-
----
-
-```
-
----
-
-Let me know if you'd like a `requirements.txt` file, or a GitHub Actions badge for CI/CD, too. I can even generate a `setup.py` if you want to distribute this as a package.
