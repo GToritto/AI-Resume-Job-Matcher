@@ -70,28 +70,12 @@ python resume_gui.py
 
 ---
 
-## 📷 Screenshots
+### 📄 Resume Upload &  Results
 
-> _Add more as needed for visual documentation_
-
-### 📄 Resume Upload
 
 ```
-![upload](screenshots/upload.png)
+![matches](screenshots/gui.png)
 ```
-
-### 📊 Match Results
-
-```
-![matches](screenshots/results.png)
-```
-
----
-
-## 🧠 About the AI
-
-This project uses the **MiniLM-L6-v2** model from [HuggingFace](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) via the `sentence-transformers` library.  
-It creates vector embeddings of your resume and compares them to job descriptions using cosine similarity — enabling deep semantic matching beyond keywords.
 
 ---
 
@@ -102,6 +86,13 @@ Click **"Export to CSV"** to save your matches for follow-up.
 ```
 title, link, score
 "Backend Developer", "https://...", 0.92
+![export](screenshots/export.png)
+![csv](screenshots/csv.png)
 ```
+## 🧠 About the AI
 
+This project uses the **MiniLM-L6-v2** model from [HuggingFace](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) via the `sentence-transformers` library.  
+It creates vector embeddings of your resume and compares them to job descriptions using cosine similarity — enabling deep semantic matching beyond keywords.
+
+---
 ---
