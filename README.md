@@ -1,6 +1,6 @@
 🤖 AI Resume Job Matcher
 
-A smart, local, and fully free job matching assistant powered by AI sentence embeddings.  
+A free job matching assistant powered by AI sentence embeddings.  
 Upload your resume (PDF or DOCX), set a similarity threshold, and it find job listings that match your skills.
 
 
