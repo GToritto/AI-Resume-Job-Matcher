@@ -3,9 +3,7 @@
 A free job matching assistant powered by AI sentence embeddings.  
 Upload resume file, set a similarity threshold, and it finds job listings that match the skills.
 
-
 ![screenshot](screenshots/gui.png)
-
 
 ---
 
