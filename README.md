@@ -42,37 +42,20 @@ Upload resume file, set a similarity threshold, and it finds job listings that m
 
 ---
 
-## 🚀 Getting Started
-
-### 📦 Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Or manually:
+### 📦 Dependencies
 
 ```bash
 pip install customtkinter sentence-transformers torch requests beautifulsoup4 pdfminer.six python-docx
 ```
-
-### ▶️ Run the app
-
-```bash
-python resume_gui.py
-```
-
 ---
 
----
-
-### 📄 Resume Upload &  Results
+### 📄 Upload &  Results
 
 ![matches](screenshots/gui.png)
 
 ---
 
-## 📤 Export Example
+## 📤 Export
 
 Click **"Export to CSV"** to save your matches for follow-up.
 
