@@ -4,7 +4,7 @@ A smart, local, and fully free job-matching assistant powered by AI sentence emb
 Upload your resume (PDF or DOCX), set a similarity threshold, and instantly find job listings that match your skills — all from a modern desktop GUI.
 
 ```
-![screenshot](screenshots/gui.png)
+![screenshot](https://github.com/GToritto/AI-Resume-Job-Matcher/blob/main/screenshots/gui.png)
 ```
 
 ---
@@ -84,8 +84,6 @@ python resume_gui.py
 Click **"Export to CSV"** to save your matches for follow-up.
 
 ```
-title, link, score
-"Backend Developer", "https://...", 0.92
 ![export](screenshots/export.png)
 ![csv](screenshots/csv.png)
 ```
