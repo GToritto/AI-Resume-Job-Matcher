@@ -1,7 +1,7 @@
 🤖 AI Resume Job Matcher
 
-A smart, local, and fully free job-matching assistant powered by AI sentence embeddings.  
-Upload your resume (PDF or DOCX), set a similarity threshold, and instantly find job listings that match your skills — all from a modern desktop GUI.
+A smart, local, and fully free job matching assistant powered by AI sentence embeddings.  
+Upload your resume (PDF or DOCX), set a similarity threshold, and it find job listings that match your skills.
 
 
 ![screenshot](screenshots/gui.png)
@@ -13,22 +13,18 @@ Upload your resume (PDF or DOCX), set a similarity threshold, and instantly find
 
 ✅ Upload resume in `.pdf` or `.docx`  
 ✅ Scrapes live job listings from [RemoteOK](https://remoteok.com)  
-✅ Uses AI to match your resume to job descriptions  
+✅ Uses AI to match resume to job descriptions  
 ✅ Adjustable similarity threshold (0%–100%)  
-✅ Clickable job links  
-✅ Export matches to CSV  
-✅ Theme toggle: light / dark  
-✅ Extracts top resume keywords (optional)
+✅ Export to CSV  
 
 ---
 
 ## 🔍 How It Works
 
-1. Your resume is parsed into raw text.
+1. Resume is parsed into raw text.
 2. It is converted into an **AI embedding** using `sentence-transformers`.
 3. Job descriptions are also embedded.
-4. Using **cosine similarity**, we find the most semantically similar jobs.
-5. You see the matches in a sleek GUI — and can export or browse jobs instantly.
+4. Using **cosine similarity**, it finds the most semantically similar jobs.
 
 ---
 
@@ -72,17 +68,13 @@ python resume_gui.py
 
 ### 📄 Resume Upload &  Results
 
-
-
 ![matches](screenshots/gui.png)
-
 
 ---
 
 ## 📤 Export Example
 
 Click **"Export to CSV"** to save your matches for follow-up.
-
 
 ![export](screenshots/export.png)
 ![csv](screenshots/csv.png)
