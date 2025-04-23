@@ -3,9 +3,9 @@
 A smart, local, and fully free job-matching assistant powered by AI sentence embeddings.  
 Upload your resume (PDF or DOCX), set a similarity threshold, and instantly find job listings that match your skills — all from a modern desktop GUI.
 
-```
+
 ![screenshot](https://github.com/GToritto/AI-Resume-Job-Matcher/blob/main/screenshots/gui.png)
-```
+
 
 ---
 
