@@ -63,7 +63,6 @@ Click **"Export to CSV"** to save your matches for follow-up.
 ## 🧠 About the AI
 
 This project uses the **MiniLM-L6-v2** model from [HuggingFace](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) via the `sentence-transformers` library.  
-It creates vector embeddings of your resume and compares them to job descriptions using cosine similarity — enabling deep semantic matching beyond keywords.
-
+It turns the resume into a vector and compares it to job descriptions to find matches based on meaning, not just keywords.
 ---
 ---
